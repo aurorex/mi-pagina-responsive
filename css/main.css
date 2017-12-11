@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+.color-row{
+    background-color: rgb(255, 116, 81);
+}
+.header-style{
+    height:80px;
+}
+.title{
+   margin-left: 8%;
+   line-height: 80px;
+   color: rgb(236, 226, 226);
+}
+.nav-style{
+ line-height: 80px; 
+}
+.ul-style li{
+    display: inline-block;
+    margin-left:18px;
+    color: rgb(41, 41, 59);
+    font-size: 20px;
+}
+.icon-bars{
+    display: none;
+}
+.image-background{
+    background-image: url(../assets/img/the-beatles-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;  
+}
+.section-1{
+    margin-top: 20px;
+    margin-left: 2%;    
+}
+h2{
+   color: rgb(33, 33, 48);    
+}
+button{
+    background-color:rgb(255, 100, 61) ;
+    border: none;
+    outline:none; 
+    margin: 20px 0;
+    padding: 10px;
+    color: white;
+}
+.section-2{
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.section-2 img{
+    margin: 7px 0; 
+    border: 3px solid rgb(248, 183, 145);
+}
+footer p{
+    background-color:rgb(33, 33, 48);
+    color:  white;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+
+
+
+
+
